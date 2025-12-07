@@ -25,7 +25,7 @@
 .products {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 480px);
   grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
   gap: 30px;
 }
