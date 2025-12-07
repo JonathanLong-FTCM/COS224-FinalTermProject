@@ -1,43 +1,43 @@
 .load-button {
-    color: aliceblue;
-    background-color: #1faa51;
-    border-radius: 5px;
-    border: none;
-    width: 150px;
-    height: 35px;
-    margin: 30px auto;
-    margin-left: 9px;
+  color: aliceblue;
+  background-color: #1faa51;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  height: 35px;
+  margin: 30px auto;
+  margin-left: 9px;
 }
 
 .load-button:disabled {
-    background-color: grey;
+  background-color: grey;
 }
 
 .load-button:active {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 .ProductsDisplay {
-    min-height: 80vh;
-    padding: 30px;
+  min-height: 80vh;
+  padding: 30px;
 }
 
 .products {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 400px);
-    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
 }
 
 .product-card {
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px gray;
-    padding: 20px;
-    background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px gray;
+  padding: 20px;
+  background-color: white;
 }
 
 .product-info {
-    padding-right: 18px;
-    padding-bottom: 20px;
+  padding-right: 18px;
+  padding-bottom: 20px;
 }
