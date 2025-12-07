@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+}
+
+.header-text {
+    font-size: large;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 5px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.right {
+    margin-right: 20px;
+}
+
+.NavLink {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.NavLink.active {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+footer {
+    background-color:  #222222;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.footer-text {
+    color: aliceblue;
+}

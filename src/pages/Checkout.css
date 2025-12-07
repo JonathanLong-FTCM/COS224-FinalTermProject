@@ -1,0 +1,70 @@
+.pop-up {
+  margin: 400px auto;
+  font-weight: 500;
+  background-color: white;
+}
+
+.checkout-page {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: left;
+}
+
+h1 {
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+.information-box {
+  border: 1.5px solid lightgrey;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.box-title {
+  border-bottom: 1.5px solid lightgrey;
+  height: 40px;
+  margin: 10px;
+  margin-bottom: 15px;
+}
+
+.box-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.type-box {
+  width: 65%;
+  border: 1.5px solid grey;
+  border-radius: 4px;
+}
+
+.checkbox {
+  margin: 0px 10px 0px 10px;
+}
+
+.invalid-text {
+  color: #dc3545;
+  font-size: 15px;
+  margin-top: 0.25rem;
+}
+
+.submit-button {
+  width: 750px;
+  background-color: #222222;
+  color: aliceblue;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
+}
